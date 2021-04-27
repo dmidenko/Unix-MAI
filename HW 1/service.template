@@ -1,0 +1,6 @@
+[Unit]
+Description=Service that writes in log every 3 secs
+[Service]
+ExecStart=PATH
+[Install]
+WantedBy=multi-user.target

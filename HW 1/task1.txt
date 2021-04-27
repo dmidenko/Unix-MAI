@@ -1,0 +1,4 @@
+chmod +x install.sh
+sudo ./install.sh
+
+sudo systemctl stop tmwriter.service

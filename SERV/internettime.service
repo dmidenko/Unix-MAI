@@ -1,0 +1,6 @@
+[Unit]
+Description=Service count time spent in internet
+[Service]
+ExecStart=/bin/sh -c '/usr/bin/dbus-monitor --system "sender=org.freedesktop.NetworkManager, path=/org/freedesktop/NetworkManager, member=StateChanged" | /usr/bin/python /var/time_log/cntr.py'
+[Install]
+WantedBy=multi-user.target
