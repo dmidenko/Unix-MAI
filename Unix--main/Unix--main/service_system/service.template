@@ -1,6 +1,0 @@
-[Unit]
-Description = Zhirnova_systemctl_service
-[Service]
-ExecStart=PATH
-[Install]
-WantedBy=multi-user.target
