@@ -1,5 +1,5 @@
 [Unit]
-Description = Zhirnova_systemctl_service
+Description = Midenko_systemctl_service
 [Service]
 ExecStart=PATH
 [Install]
