@@ -14,7 +14,7 @@ struct net_device *bhole_ndev;
 typedef struct { unsigned int requests; } MY_DRIVERDATA;
 
 int my_net_open (struct net_device *dev) {
-    memcpy(dev->dev_addr,"\0USKA",ETH_ALEN);
+    memcpy(dev->dev_addr,"\0MID",ETH_ALEN);
     printk("my_net_open called\n");
     netif_start_queue (dev);
     return 0;
